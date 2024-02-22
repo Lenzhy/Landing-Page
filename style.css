@@ -13,7 +13,7 @@ a{
 }
 button{
     background-color: #3882f6;
-    padding: 15px 32px;
+    padding: 7px 25px;
     border: none;
     border-radius: 8px;
     color: white;
@@ -138,8 +138,28 @@ button{
 }
 /*<--quote*/
 
-
-
+/*<--suscribe*/
+.subscribe{
+color: #f9faf8;
+}
+.callme {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px 100px;
+    padding: 25px 45px;
+    border-radius: 8px;
+}
+.callme h3{
+    margin: 0;
+    font-size: 17px;
+    font-weight: 700;
+}
+.callme button{
+    border: 2px solid white;
+}
+/*suscribe-->*/
 
 /*--> BODy*/
 
