@@ -1,7 +1,6 @@
+
 body{
-    /* add font-family*/
-}
-body{
+    /* add fontfamily */
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -72,18 +71,19 @@ button{
 /* <- HEADER*/
 
 /* BODY--> */
+.body{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
 
 /*Content-->*/
-.body{
-     flex: 1;
-     display: flex;
-     flex-direction: column;
- }
 .content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 75px;
 }
 .case{
     display: flex;
@@ -116,9 +116,31 @@ button{
 /*<--Content*/
 
 /*quote-->*/
-
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.quote p{
+    font-size: 36px;
+    font-style: oblique 1deg;
+    display: flex;
+    flex-direction: column;
+}
+.quote span{
+    font-size: 25px;
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-end;
+}
 /*<--quote*/
- */
+
+
+
+
 /*--> BODy*/
 
 .bottom{
