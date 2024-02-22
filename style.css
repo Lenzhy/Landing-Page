@@ -1,0 +1,85 @@
+body{
+    /* add font-family*/
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button{
+    background-color: #3882f6;
+    padding: 15px 32px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+.body{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+/*HEADER--> */
+.header{
+    background-color: #1f2937 ;
+    color: white;
+    flex: 1;
+    justify-content: flex-start;
+    padding:20px 150px 80px 150px;
+}
+.topHeader{
+    display: flex;
+    justify-content:space-between ;
+}
+.link{
+    display: flex;
+    gap: 15px;
+}
+.header span{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.botHeader{
+    display: flex;
+    margin-top: 45px;
+    gap: 35px;
+}
+.awesome{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    max-width: 400px;
+}
+.awesome h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    text-align: start;
+    margin: 0;
+}
+.imageHeader{
+    background-color:#72727e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.awesome p{
+    text-align: left;
+    margin: 0 0 25px 0;
+}
+
+/* <- HEADER*/
+
+/* BODY--> */
+
+/*--> BODy*/
+
+.bottom{
+    justify-content: flex-end;
+}
